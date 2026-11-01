@@ -17,6 +17,6 @@ path = "lib.rs"
 deno_core = { version = "0.90.0", path = "../../core" }
 deno_web = { version = "0.40.0", path = "../web" }
 tokio = { version = "1.7.0", features = ["full"] }
-rand = "0.8.3"
-ring = "0.16.20"
+rand = "0.10.3"
+ring = "0.17.14"
 uuid = { version = "0.8.2", features = ["v4"] }
